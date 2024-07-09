@@ -1,0 +1,142 @@
+@media(max-width:1110px) {
+  body {}
+
+  section.container {
+    max-width: 700px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  header {
+    padding: 48px 0 64px;
+  }
+
+  .hero {
+    min-height: 637px;
+    padding-top: 0;
+    margin-bottom: 192px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-position: top left, top right;
+    width: 820px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 24px;
+    width: 340px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    width: 457px;
+  }
+
+  .gallery {
+    padding-top: 95px;
+    column-gap: 11px;
+    padding-bottom: 48px;
+  }
+
+  .use {
+    margin-bottom: 192px;
+  }
+
+  .use p {
+    max-width: 573px;
+    font-size: 16px;
+  }
+
+  footer {
+    max-height: 428px;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-inner a {
+    align-self: center;
+  }
+
+  .footer-inner h3 {
+    margin-bottom: 32px;
+  }
+
+  .footer-inner p {
+    max-width: 573px;
+    margin-bottom: 40px;
+  }
+}
+
+@media(max-width:768px) {
+  section.container {
+    max-width: 337px;
+  }
+
+  header {
+    padding-bottom: 54px;
+  }
+
+  .hero {
+    min-height: 555px;
+    width: 414px;
+    background-size: 199px 153px;
+    margin-bottom: 176px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 327px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    width: 327px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+  }
+
+  .gallery {
+    padding-top: 92px;
+    padding-bottom: 64px;
+    flex-wrap: wrap;
+    column-gap: 25px;
+  }
+
+  .gallery-item {
+    width: 151px;
+    height: 143px;
+  }
+
+  .use {
+    margin-bottom: 176px;
+  }
+
+  .use h2 {
+    margin-bottom: 24px;
+  }
+
+  .use h3 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .footer-inner h3 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+  .footer-inner p{
+    margin-bottom: 32px;
+  }
+}

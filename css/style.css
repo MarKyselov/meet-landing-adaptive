@@ -1,0 +1,249 @@
+.red-hat-display-medium {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.red-hat-display-black {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+section.container{
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+main{
+  max-width: 1504px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: hidden;
+}
+.number {
+  width: 56px;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  /* transform: translateX(-50%);
+  transform: translateY(-80%); */
+  transform: translate(-50%, -80%);
+}
+
+.line {
+  opacity: 0.25;
+  border-left: 1px solid #87879D;
+  width: 1px;
+  height: 84px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.digit {
+  font-size: 16px;
+  line-height: 26px;
+  color: #87879D;
+  background: #FAFAFA;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 60px;
+}
+
+.hero {
+  padding-bottom: 7px;
+  margin-bottom: 220px;
+  padding-top: 47px;
+  text-align: center;
+  background-image: url(../assets/images/desktop/image-hero-left.png), url(../assets/images/desktop/image-hero-right.png);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  width: 1504px;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 64px;
+  color: #28283D;
+  width: 445px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #87879D;
+  width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.hero a,
+.footer-inner a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 29px;
+  transition: 0.5s;
+}
+a.what {
+  width: 139px;
+  height: 58px;
+  background-color: #855FB1;
+}
+a.download {
+  width: 193px;
+  height: 58px;
+  background-color: #4D96A9;
+}
+a.what:hover{
+  background-color: #B18BDD;
+}
+a.download:hover{
+  background-color: #71C0D4;
+}
+
+.version {
+  font-size: 16px;
+  line-height: 26px;
+  color: #8FE3F9;
+  margin-left: 4px;
+}
+
+
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  row-gap: 24px;
+  column-gap: 30px;
+  padding: 90px 0;
+  position: relative;
+}
+
+.gallery-item {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.use {
+  margin-bottom: 184px;
+  text-align: center;
+}
+
+.use h2 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4D96A9;
+  margin-bottom: 16px;
+}
+
+.use h3 {
+  font-size: 40px;
+  line-height: 44px;
+  color: #28283D;
+  max-width: 445px;
+  margin-bottom: 32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.use p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #87879D;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  position: relative;
+  max-height: 310px;
+  height: 100%;
+  background-image: url(../assets/images/desktop/image-footer.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-bg {
+  background-color: hsla(192, 37%, 48%, 0.9);
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.footer-inner {
+  /* flex-wrap: wrap; */
+  /* background-color: #855FB1; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-inner h3 {
+  font-size: 40px;
+  line-height: 44px;
+  color: #FAFAFA;
+  width: 350px;
+}
+
+.footer-inner p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #FAFAFA;
+  max-width: 350px;
+}
+
+.footer-inner a {
+  background-color: #855FB1;
+  align-self: flex-end;
+}
+.footer-inner a:hover{
+  background-color: #B18BDD;
+}
+.footer-inner .version {
+  color: #D9B8FF;
+}
